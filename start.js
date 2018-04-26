@@ -20,10 +20,10 @@ function start(){
 		});
 }
 
-replaceConsoleLog();
-myWitnesses.readMyWitnesses(function(arrWitnesses){
-	if (arrWitnesses.length > 0)
-		return start();
-	console.log('will init witnesses', conf.initial_witnesses);
-	myWitnesses.insertWitnesses(conf.initial_witnesses, start);
-}, 'ignore');
+// replaceConsoleLog();
+// myWitnesses.readMyWitnesses(function(arrWitnesses){
+// 	if (arrWitnesses.length > 0)
+// 		return start();
+// 	console.log('will init witnesses', conf.initial_witnesses);
+// 	myWitnesses.insertWitnesses(conf.initial_witnesses, start);
+// }, 'ignore');
